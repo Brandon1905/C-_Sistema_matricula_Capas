@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE4610FD-FD94-4FB7-9383-222B191F9EC6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CapaConexion, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bibliotecas\CapaConexion.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaIntegracion">
+      <HintPath>..\Bibliotecas\CapaIntegracion.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CristalReports\crAula.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crAula.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CristalReports\crCurso.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crCurso.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CristalReports\crEstudiante.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crEstudiante.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CristalReports\crGrupo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crGrupo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CristalReports\crHorario.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crHorario.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CristalReports\crMatricula.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crMatricula.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CristalReports\crProfesor.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crProfesor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CristalReports\crUsuario.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crUsuario.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteAula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteAula.Designer.cs">
+      <DependentUpon>FrmReporteAula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteCurso.Designer.cs">
+      <DependentUpon>FrmReporteCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteEstudiante.Designer.cs">
+      <DependentUpon>FrmReporteEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteGrupo.Designer.cs">
+      <DependentUpon>FrmReporteGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteHorario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteHorario.Designer.cs">
+      <DependentUpon>FrmReporteHorario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteMatricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteMatricula.Designer.cs">
+      <DependentUpon>FrmReporteMatricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteProfesror.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteProfesror.Designer.cs">
+      <DependentUpon>FrmReporteProfesror.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ModeloHorario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ModeloHorario.Designer.cs">
+      <DependentUpon>ModeloHorario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ModuloAula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ModuloAula.Designer.cs">
+      <DependentUpon>ModuloAula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ModuloCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ModuloCurso.Designer.cs">
+      <DependentUpon>ModuloCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ModuloEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ModuloEstudiante.Designer.cs">
+      <DependentUpon>ModuloEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ModuloGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ModuloGrupo.Designer.cs">
+      <DependentUpon>ModuloGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ModuloMatricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ModuloMatricula.Designer.cs">
+      <DependentUpon>ModuloMatricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ModuloProfesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ModuloProfesor.Designer.cs">
+      <DependentUpon>ModuloProfesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\ModuloUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\ModuloUsuario.Designer.cs">
+      <DependentUpon>ModuloUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\FrmReporteUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReporteUsuario.Designer.cs">
+      <DependentUpon>FrmReporteUsuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CristalReports\crAula.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crAula.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CristalReports\crCurso.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crCurso.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CristalReports\crEstudiante.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crEstudiante.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CristalReports\crGrupo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crGrupo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CristalReports\crHorario.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crHorario.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CristalReports\crMatricula.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crMatricula.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CristalReports\crProfesor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crProfesor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CristalReports\crUsuario.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crUsuario.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmReporteAula.resx">
+      <DependentUpon>FrmReporteAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmReporteCurso.resx">
+      <DependentUpon>FrmReporteCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmReporteEstudiante.resx">
+      <DependentUpon>FrmReporteEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmReporteGrupo.resx">
+      <DependentUpon>FrmReporteGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmReporteHorario.resx">
+      <DependentUpon>FrmReporteHorario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmReporteMatricula.resx">
+      <DependentUpon>FrmReporteMatricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmReporteProfesror.resx">
+      <DependentUpon>FrmReporteProfesror.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ModeloHorario.resx">
+      <DependentUpon>ModeloHorario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ModuloAula.resx">
+      <DependentUpon>ModuloAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ModuloCurso.resx">
+      <DependentUpon>ModuloCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ModuloEstudiante.resx">
+      <DependentUpon>ModuloEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ModuloGrupo.resx">
+      <DependentUpon>ModuloGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ModuloMatricula.resx">
+      <DependentUpon>ModuloMatricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ModuloProfesor.resx">
+      <DependentUpon>ModuloProfesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\ModuloUsuario.resx">
+      <DependentUpon>ModuloUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reportes\FrmReporteUsuario.resx">
+      <DependentUpon>FrmReporteUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

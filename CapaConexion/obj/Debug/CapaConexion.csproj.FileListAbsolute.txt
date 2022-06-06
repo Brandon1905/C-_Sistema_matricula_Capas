@@ -1,0 +1,6 @@
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\Bibliotecas\CapaConexion.dll
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\Bibliotecas\CapaConexion.pdb
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaConexion\obj\Debug\CapaConexion.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaConexion\obj\Debug\CapaConexion.dll
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaConexion\obj\Debug\CapaConexion.pdb
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaConexion\obj\Debug\CapaConexion.csproj.AssemblyReference.cache

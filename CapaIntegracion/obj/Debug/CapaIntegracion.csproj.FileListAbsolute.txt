@@ -1,0 +1,7 @@
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\Bibliotecas\CapaIntegracion.dll
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\Bibliotecas\CapaIntegracion.pdb
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaIntegracion\obj\Debug\CapaIntegracion.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaIntegracion\obj\Debug\CapaIntegracion.dll
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaIntegracion\obj\Debug\CapaIntegracion.pdb
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaIntegracion\obj\Debug\CapaIntegracion.csproj.CopyComplete
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaIntegracion\obj\Debug\CapaIntegracion.csproj.AssemblyReference.cache

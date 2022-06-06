@@ -1,0 +1,7 @@
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\Bibliotecas\CapaLogica.dll
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\Bibliotecas\CapaLogica.pdb
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\Brandon\Documents\BRANDON\universidad\2020\Semestre N2, 2020\PROGRAMACION 3\Sistema_Matricula\SistemaMatricula\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
